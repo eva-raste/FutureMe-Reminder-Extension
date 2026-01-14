@@ -30,15 +30,15 @@ This project demonstrates correct **Chrome Extension (Manifest V3)** architectur
 
 ## 📂 Project Structure
 
-future-me/
-├── manifest.json
-├── background.js
-├── popup.html
-├── popup.js
-├── popup.css
-├── note.html
-├── note.js
-└── icon.png
+- **future-me/**
+  - `manifest.json`
+  - `background.js` 
+  - `popup.html`
+  - `popup.js` 
+  - `popup.css`
+  - `note.html`
+  - `note.js`
+  - `icon.png`
 
 ---
 
