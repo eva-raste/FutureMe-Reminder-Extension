@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Future Me</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>Message to Future You</h2>
+
+<div id="fullNote" style="display:none;">
+  <h3>Your Note</h3>
+  <p id="noteText"></p>
+  <button id="closeNote">Close</button>
+</div>
+
+<div id="createNote">
+  <textarea id="message" placeholder="Write your note..."></textarea>
+  <input type="datetime-local" id="triggerDate" />
+  <button id="saveBtn">Save Reminder</button>
+  <p id="status"></p>
+</div>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>
